@@ -71,3 +71,75 @@ Run the application:
 npm start
 ```
 The server will start on http://localhost:3000
+
+---
+## Deployment on AWS EC2 with Nginx
+
+The application is deployed on an AWS EC2 instance with Nginx as a reverse proxy. You can access the application at:
+
+**Base URL**: [http://13.233.251.254/]
+
+---
+
+## Accessing the API
+
+You can access the API endpoints using the base URL: [http://13.233.251.254/](http://13.233.251.254/).
+
+### Categories
+
+- **Get All Categories**:
+   GET http://13.233.251.254/api/categories
+
+- **Get Category by ID**:
+   GET http://13.233.251.254/api/categories/:id
+
+- **Create a Category**:
+   POST http://13.233.251.254/api/categories
+
+### Subcategories
+
+- **Get All Subcategories**:
+   GET http://13.233.251.254/api/subcategories
+
+- **Get Subcategory by ID**:
+   GET http://13.233.251.254/api/subcategories/:id
+
+- **Create a Subcategory**:
+  POST http://13.233.251.254/api/subcategories
+
+### Items
+
+  - **Get All Items**:
+    GET http://13.233.251.254/api/items
+    
+  - **Get Item by ID**:
+    GET http://13.233.251.254/api/items/:id
+
+  - **Create an Item**:
+    POST http://13.233.251.254/api/items
+
+### Search Items
+- **Search Items by Name**:
+  GET http://13.233.251.254/api/items/search?name=__
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
