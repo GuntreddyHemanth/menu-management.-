@@ -1,4 +1,4 @@
-# Menu Management Backend
+# Menu Management Backend - By Guestara
 
 A Node.js backend application for managing a menu with categories, subcategories, and items. Built with Express.js and MongoDB.
 
